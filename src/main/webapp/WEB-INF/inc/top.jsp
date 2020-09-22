@@ -6,7 +6,7 @@
 
 <!-- Fixed navbar -->
 <!-- Header -->
-	<header id="header" class="alt">
+	<header id="header">
 		<div class="logo"><a href="index.html">Urban <span>by TEMPLATED</span></a></div>
 		<a href="#menu">Menu</a>
 	</header>
