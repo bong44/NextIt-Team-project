@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+  <settings>
+    <!-- 데이터베이스 카럼명 형태인 _형태를 카멜케이스 표기법으로 자동으로 매핑 -->
+  	<setting name="mapUnderscoreToCamelCase" value="true"/>
+  	<setting name="jdbcTypeForNull" value="NULL"/>  
+  </settings> 
+</configuration>
