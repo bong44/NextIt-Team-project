@@ -32,18 +32,36 @@
 		<section class="wrapper style1">
 			<div class="inner">
 				<!-- 2 Columns -->
-				<div class="flex flex-2">
+				<div class="flex flex-2" style="position: relative; top: -70px;">
 					<div class="col col3">
-						<img src="<%=request.getContextPath()%>/images/MAP.png" alt=""	width="450px" />
-							<img 	src="<%=request.getContextPath()%>/images/RG01.png" alt=""	width="120px" />
-							<img	src="<%=request.getContextPath()%>/images/RG02.png" alt=""	width="120px" />
+					<!-- 지도 컨테이너 -->
+						<div style="width: 450px; height: 606px; position: relative;">
+							<!-- 지도 --> 
+							<img src="<%=request.getContextPath()%>/images/MAP.png" alt=""	width="450px" style="position: absolute;"/>
+						
+							<!-- 지역 그림 -->
+							<div style="width: 120px;height: 117px;position: absolute;left: 90px;top: 40px;">
+								<img 	src="<%=request.getContextPath()%>/images/RG01.png" alt=""	width="120px" />
+							</div>
+							
+							<!-- 지역 그림 -->
+							<div style="width: 120px;height: 117px;position: absolute;left: 90px;top: 40px;">
+								<img 	src="<%=request.getContextPath()%>/images/RG02.png" alt=""	width="120px" />
+							</div>
+							
+						</div>
+						
+						<div style="width: 120px;height: 117px;">
+							<img 	src="<%=request.getContextPath()%>/images/RG02.png" alt=""	width="120px" />
+						</div>
+							<%-- <img	src="<%=request.getContextPath()%>/images/RG02.png" alt=""	width="120px" />
 							<img	src="<%=request.getContextPath()%>/images/RG03.png" alt=""	width="120px" /> 
 							<img	src="<%=request.getContextPath()%>/images/RG04.png" alt=""	width="120px" />
 							 <img	src="<%=request.getContextPath()%>/images/RG05.png" alt=""	width="120px" /> 
 							<img	src="<%=request.getContextPath()%>/images/RG06.png" alt=""	width="120px" /> 
 							<img	src="<%=request.getContextPath()%>/images/RG07.png" alt=""	width="120px" /> 
 							<img	src="<%=request.getContextPath()%>/images/RG08.png" alt=""	width="120px" /> 
-							<img	src="<%=request.getContextPath()%>/images/RG09.png" alt=""	width="120px" />
+							<img	src="<%=request.getContextPath()%>/images/RG09.png" alt=""	width="120px" /> --%>
 					</div>
 				</div>
 				<div class="col col2">
