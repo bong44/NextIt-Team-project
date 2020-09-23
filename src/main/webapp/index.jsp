@@ -40,32 +40,46 @@
 							<img src="<%=request.getContextPath()%>/images/MAP.png" alt=""	width="450px" style="position: absolute;"/>
 						
 							<!-- 지역 그림 -->
-							<div id="id_img_RG01" style="width: 120px;height: 117px;position: absolute;left: 95px;top: 60px;">
+							<div id="id_img_RG01" style="width: 120px;height: 117px;position: absolute;left: 98px;top: 60px;">
 								<img 	src="<%=request.getContextPath()%>/images/RG01.png" alt=""	width="120px" />
 							</div>
 							
-							<!-- 지역 그림 -->
 							<div id="id_img_RG02" style="width: 120px;height: 117px;position: absolute;left: 265px;top: 45px;">
 								<img 	src="<%=request.getContextPath()%>/images/RG02.png" alt=""	width="120px" />
 							</div>
 							
+							<div id="id_img_RG03" style="width: 120px;height: 117px;position: absolute;left: 200px;top: 160px;">
+								<img 	src="<%=request.getContextPath()%>/images/RG03.png" alt=""	width="120px" />
+							</div>
+							
+							<div id="id_img_RG04" style="width: 120px;height: 117px;position: absolute;left: 72px;top: 190px;">
+								<img 	src="<%=request.getContextPath()%>/images/RG04.png" alt=""	width="120px" />
+							</div>
+
+							<div id="id_img_RG05" style="width: 120px;height: 117px;position: absolute;left: 115px;top: 308px;">
+								<img 	src="<%=request.getContextPath()%>/images/RG05.png" alt=""	width="120px" />
+							</div>
+				
+							<div id="id_img_RG06" style="width: 120px;height: 117px;position: absolute;left: 75px;top: 425px;">
+								<img 	src="<%=request.getContextPath()%>/images/RG06.png" alt=""	width="120px" />
+							</div>
+
+							<div id="id_img_RG07" style="width: 120px;height: 117px;position: absolute;left: 310px;top: 230px;">
+								<img 	src="<%=request.getContextPath()%>/images/RG07.png" alt=""	width="120px" />
+							</div>
+
+							<div id="id_img_RG08" style="width: 120px;height: 117px;position: absolute;left: 265px;top: 375px;">
+								<img 	src="<%=request.getContextPath()%>/images/RG08.png" alt=""	width="120px" />
+							</div>
+
+							<div id="id_img_RG09" style="width: 120px;height: 117px;position: absolute;left: -90px;top: 460px;">
+								<img 	src="<%=request.getContextPath()%>/images/RG09.png" alt=""	width="120px" />
+							</div>
+							<div class="col col2" style="position: absolute;left: 265px;top: 580px; ">
+								<a href="#" class="button">Learn More</a>
+							</div>
 						</div>
-						
-						<div style="width: 120px;height: 117px;">
-							<img 	src="<%=request.getContextPath()%>/images/RG02.png" alt=""	width="120px" />
-						</div>
-							<%-- <img	src="<%=request.getContextPath()%>/images/RG02.png" alt=""	width="120px" />
-							<img	src="<%=request.getContextPath()%>/images/RG03.png" alt=""	width="120px" /> 
-							<img	src="<%=request.getContextPath()%>/images/RG04.png" alt=""	width="120px" />
-							 <img	src="<%=request.getContextPath()%>/images/RG05.png" alt=""	width="120px" /> 
-							<img	src="<%=request.getContextPath()%>/images/RG06.png" alt=""	width="120px" /> 
-							<img	src="<%=request.getContextPath()%>/images/RG07.png" alt=""	width="120px" /> 
-							<img	src="<%=request.getContextPath()%>/images/RG08.png" alt=""	width="120px" /> 
-							<img	src="<%=request.getContextPath()%>/images/RG09.png" alt=""	width="120px" /> --%>
 					</div>
-				</div>
-				<div class="col col2">
-					<a href="#" class="button">Learn More</a>
 				</div>
 			</div>
 	</div>
@@ -109,17 +123,19 @@
 		async : false,
 		data : {
 			"appKey" : "l7xx5c1f390a335848e387248fc95afc761f",
-			"startX" : "126.9850380932383",
-			"startY" : "37.566567545861645",
-			"endX" : "127.10331814639885",
-			"endY" : "37.403049076341794",
+			"startX" : "128.659574",
+			"startY" : "35.230268",
+			"endX" : "128.5759020862",
+			"endY" : "35.1979665375",
+			"passList" : "128.813395,35.127421_128.6883001888,35.1412998883",
 			"reqCoordType" : "WGS84GEO",
-			"resCoordType" : "EPSG3857"
+			"resCoordType" : "WGS84GEO"
 		},
 		success : function(response) {
 			console.log(response.features);
 		}
 	}); */
+	
 </script>
 </html>
 
