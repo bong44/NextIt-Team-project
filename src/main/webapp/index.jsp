@@ -34,26 +34,16 @@
 				<!-- 2 Columns -->
 				<div class="flex flex-2">
 					<div class="col col3">
-						<img src="<%=request.getContextPath()%>/images/MAP.png" alt=""
-							width="450px" /> <img
-							src="<%=request.getContextPath()%>/images/RG01.png" alt=""
-							width="120px" /> <img
-							src="<%=request.getContextPath()%>/images/RG02.png" alt=""
-							width="120px" /> <img
-							src="<%=request.getContextPath()%>/images/RG03.png" alt=""
-							width="120px" /> <img
-							src="<%=request.getContextPath()%>/images/RG04.png" alt=""
-							width="120px" /> <img
-							src="<%=request.getContextPath()%>/images/RG05.png" alt=""
-							width="120px" /> <img
-							src="<%=request.getContextPath()%>/images/RG06.png" alt=""
-							width="120px" /> <img
-							src="<%=request.getContextPath()%>/images/RG07.png" alt=""
-							width="120px" /> <img
-							src="<%=request.getContextPath()%>/images/RG08.png" alt=""
-							width="120px" /> <img
-							src="<%=request.getContextPath()%>/images/RG09.png" alt=""
-							width="120px" />
+						<img src="<%=request.getContextPath()%>/images/MAP.png" alt=""	width="450px" />
+							<img 	src="<%=request.getContextPath()%>/images/RG01.png" alt=""	width="120px" />
+							<img	src="<%=request.getContextPath()%>/images/RG02.png" alt=""	width="120px" />
+							<img	src="<%=request.getContextPath()%>/images/RG03.png" alt=""	width="120px" /> 
+							<img	src="<%=request.getContextPath()%>/images/RG04.png" alt=""	width="120px" />
+							 <img	src="<%=request.getContextPath()%>/images/RG05.png" alt=""	width="120px" /> 
+							<img	src="<%=request.getContextPath()%>/images/RG06.png" alt=""	width="120px" /> 
+							<img	src="<%=request.getContextPath()%>/images/RG07.png" alt=""	width="120px" /> 
+							<img	src="<%=request.getContextPath()%>/images/RG08.png" alt=""	width="120px" /> 
+							<img	src="<%=request.getContextPath()%>/images/RG09.png" alt=""	width="120px" />
 					</div>
 				</div>
 				<div class="col col2">
