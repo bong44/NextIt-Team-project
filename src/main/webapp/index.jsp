@@ -40,12 +40,12 @@
 							<img src="<%=request.getContextPath()%>/images/MAP.png" alt=""	width="450px" style="position: absolute;"/>
 						
 							<!-- 지역 그림 -->
-							<div style="width: 120px;height: 117px;position: absolute;left: 90px;top: 40px;">
+							<div id="id_img_RG01" style="width: 120px;height: 117px;position: absolute;left: 95px;top: 60px;">
 								<img 	src="<%=request.getContextPath()%>/images/RG01.png" alt=""	width="120px" />
 							</div>
 							
 							<!-- 지역 그림 -->
-							<div style="width: 120px;height: 117px;position: absolute;left: 90px;top: 40px;">
+							<div id="id_img_RG02" style="width: 120px;height: 117px;position: absolute;left: 265px;top: 45px;">
 								<img 	src="<%=request.getContextPath()%>/images/RG02.png" alt=""	width="120px" />
 							</div>
 							
@@ -97,6 +97,12 @@
 <script
 	src="https://apis.openapi.sk.com/tmap/jsv2?version=1&appKey=l7xx5c1f390a335848e387248fc95afc761f"></script>
 <script>
+	
+	$("#id_img_RG01").on("click", function() {
+		location.replace("<%=request.getContextPath()%>/tour/tourinfo.tri");
+	});
+
+
 	/* $.ajax({
 		type : "POST",
 		url : "https://apis.openapi.sk.com/tmap/routes?version=1&format=json&callback=result",

@@ -8,7 +8,7 @@
 <!-- Header -->
 <header id="header">
 	<div class="logo">
-		<a href="index.html">대한민국<span>구석구석</span></a>
+		<a href="<%=request.getContextPath()%>">대한민국<span>구석구석</span></a>
 	</div>
 	<div class="collapse navbar-collapse" id="navbarCollapse">
 		<div class="form-inline mt-2 mt-md-0">
