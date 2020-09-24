@@ -18,9 +18,16 @@
 	<div class="page-header" style="position: relative; top: 30px" >
 		<h3 class="text-center" id="id_tourNm">해동용궁사</h3>
 		<div class="text-center"  id="topAddres"  style="position: relative; top: -25px" >
-		<span>부산 기장군</span><br>
+			<span>부산 기장군</span><br>
 		</div>
 	</div>
+
+		<div class="pull-left">
+			<a href="freeList.wow" class="btn btn-default btn-sm"> <span
+				class="glyphicon glyphicon-list" aria-hidden="true"></span>
+				&nbsp;&nbsp;목록
+			</a>
+		</div>
 	<hr>
 	
 	<div class="contents">
@@ -30,52 +37,68 @@
 	야외공연장으로 구성되어 있습니다.
 	
 	</div>
+	
+			<!-- 지도자리 -->
+		<div class="ci_map" style="position:relative; background: #eee; ">
+			map	
+		</div>
+	
 		<hr>
+		<!-- 문의 및 주소 -->
 		<div class="area_txtView bottom" style="padding-bottom: 0px">
 			<ul>
 				<li><strong>주소(지번 도로명)</strong>&nbsp;&nbsp;&nbsp;&nbsp;<span>청주시
 						청주구 청주동 헤헤헤</span>
 				<li><strong>문의 및 안내</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>043-211-1111</span>
 			</ul>
-
-			<!-- 시설아이콘 -->
-			<!-- <div class="cl_icons" style="position: absolute;"> -->
+		</div>
+		
+		<!-- 기타시설 현황 아이콘 -->
+		<div class="title_btn_toggle" id="id_convenience" style="position: relative; bottom:16px; margin-top: 35px; background: #eee; font-size: 15px; font-weight: bold; letter-spacing: -0.5px; padding: 10px 0; border-radius: 10px;"> 
+			&nbsp;&nbsp;&nbsp;&nbsp;기타 시설 현황
+		</div>
+		
+		<div class="cl_iconarea">
+			<div class="cl_iconList" style="position: absolute;">
+			
+			
+				<!-- 시설아이콘 -->
 				<div id="id_img_parking"
-					style="width: 120px; height: 117px; position: absolute; left: 200px; top: 500px;">
-					<img src="<%=request.getContextPath()%>/images/on_parking.png"	alt="" width="90px" />
+				style="width: 70px; position: absolute; left: 200px; ">
+					<img src="<%=request.getContextPath()%>/images/on_parking.png"	alt="" width="70px" />
 				</div>
 
 				<div id="id_img_restroom"
-					style="width: 120px; height: 117px; position: absolute; left: 300px; top: 500px;">
-					<img src="<%=request.getContextPath()%>/images/on_restroom.png"  alt="" width="90px" />
+					style="width: 70px; position: absolute; left: 300px;">
+					<img src="<%=request.getContextPath()%>/images/on_restroom.png"  alt="" width="70px" />
 				</div>
 
 				<div id="id_img_food"
-					style="width: 120px; height: 117px; position: absolute; left: 400px; top: 500px;">
-					<img src="<%=request.getContextPath()%>/images/on_food.png" alt="" width="90px" />
+					style="width: 70px; position: absolute; left: 400px;">
+					<img src="<%=request.getContextPath()%>/images/on_food.png" alt="" width="70px" />
 				</div>
 
 				<div id="id_img_coffee"
-					style="width: 120px; height: 117px; position: absolute; left: 500px; top: 500px;">
-					<img src="<%=request.getContextPath()%>/images/off_coffee.png"	 alt="" width="90px" />
+					style="width: 70px; position: absolute; left: 500px; ">
+					<img src="<%=request.getContextPath()%>/images/off_coffee.png"	 alt="" width="70px" />
 				</div>
 
 				<div id="id_img_shower"
-					style="width: 120px; height: 117px; position: absolute; left: 600px; top: 500px;">
-					<img src="<%=request.getContextPath()%>/images/on_shower.png" alt="" width="90px" />
+					style="width: 70px; position: absolute; left: 600px;">
+					<img src="<%=request.getContextPath()%>/images/on_shower.png" alt="" width="70px" />
 				</div>
 
 				<div id="id_img_park"
-					style="width: 120px; height: 117px; position: absolute; left: 700px; top: 500px;">
-					<img src="<%=request.getContextPath()%>/images/off_park.png" alt="" width="90px" />
+					style="width: 70px; position: absolute; left: 700px;">
+					<img src="<%=request.getContextPath()%>/images/off_park.png" alt="" width="70px" />
 				</div>
 
 				<div id="id_img_breastfeeding"
-					style="width: 120px; height: 117px; position: absolute; left: 800px; top: 500px;">
-					<img	src="<%=request.getContextPath()%>/images/on_breastfeeding.png"	alt="" width="90px" />
+					style="width: 70px; position: absolute; left: 800px;">
+					<img	src="<%=request.getContextPath()%>/images/on_breastfeeding.png"	alt="" width="70px" />
 				</div>
-			<!-- </div> -->
-		</div>
+			</div><!-- cl_iconarea -->
+		</div> <!--cl_iconList -->
 
 
 	</div><!-- container -->
