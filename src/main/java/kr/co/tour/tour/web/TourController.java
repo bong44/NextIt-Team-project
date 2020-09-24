@@ -11,4 +11,9 @@ public class TourController {
 		
 	}
 	
+	@RequestMapping("/tour/tourlist.tri")
+	public void tourList() {
+		
+	}
+
 }

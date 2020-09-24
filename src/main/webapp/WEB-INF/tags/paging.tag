@@ -3,7 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <%@ attribute name="pagingVO" required="true"
-	type="com.study.common.vo.PagingVO"%>
+	type="kr.co.tour.common.vo.PagingVO"%>
 <%@ attribute name="linkPage" required="true" type="java.lang.String"%>
 
 
