@@ -127,7 +127,32 @@
 						</table>
 						
 						<!-- START : 페이지네이션  -->
-							<mytag:paging pagingVO="${searchVO}" linkPage="main.tri?curPage="/>
+							<ul class="pagination">
+								<!-- 이전 페이지 -->
+								<c:if test="${pagingVO.firstPage > 1}">
+									<li><a href="<%=request.getContextPath()%>/tour/tourlist.tri?curPage=${pagingVO.firstPage-1}"
+										data-page="${pagingVO.firstPage-1}"><span aria-hidden="true">&laquo;</span></a></li>
+								</c:if>
+							
+								<!-- 페이지 넘버링  -->
+								<c:forEach var="i" begin="${pagingVO.firstPage}"
+									end="${pagingVO.lastPage}">
+									<c:if test="${pagingVO.curPage == i}">
+										<li class="active"><a href="#">${i}</a></li>
+									</c:if>
+									<c:if test="${pagingVO.curPage != i}">
+										<li><a href="<%=request.getContextPath()%>/tour/tourlist.tri?curPage=${i}" data-page="${i}">${i}</a></li>
+									</c:if>
+								</c:forEach>
+							
+							
+								<!-- 다음  페이지  -->
+								<c:if test="${pagingVO.lastPage < pagingVO.totalPageCount}">
+									<li><a href="<%=request.getContextPath()%>/tour/tourlist.tri?curPage=${pagingVO.lastPage+1}"
+										data-page="${pagingVO.lastPage+1}"><span aria-hidden="true">&raquo;</span></a></li>
+								</c:if>
+							
+							</ul>
 						<!-- END : 페이지네이션  -->
 						
 					</div>
