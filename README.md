@@ -1,8 +1,7 @@
 # teamproject
+머신러닝 활용 빅데이터 융합 JAVA 응용 SW 개발자 양성과정 최종 프로젝트
 
 <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"><img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"><img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"><img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=Oracle&logoColor=white"><img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jQuery&logoColor=white">
-
-머신러닝 활용 빅데이터 융합 JAVA 응용 SW 개발자 양성과정 최종 프로젝트
 
 - 대전 넥스트 IT 주관. [http://www.nextit.or.kr/index.html]
 
